@@ -1,5 +1,3 @@
-#OPC UA Sunucu ve İstemci Örneği
-
 Bu proje, bir Python sunucusu ile bir C# istemcisi arasında OPC UA (Open Platform Communications Unified Architecture) iletişimi kuran basit bir örnektir. Python sunucusu, bir sıcaklık sensörü simüle ederken, 
 C# istemcisi bu değeri okur ve günceller.
 
@@ -64,7 +62,7 @@ Ardından C# İstemcisini (Program.cs) çalıştırın.
 Sunucuyu durdurmak için terminalde Ctrl + C tuş kombinasyonunu kullanın.
 
 
-Ek Notlar
+5. Ek Notlar
 
 Bu proje, güvenlik ayarları devre dışı bırakılmış (SecurityMode.None) basit bir bağlantı örneğidir. Üretim ortamlarında güvenlik sertifikalarının kullanılması şiddetle tavsiye edilir.
 
