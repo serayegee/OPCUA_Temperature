@@ -5,6 +5,7 @@ C# istemcisi bu değeri okur ve günceller.
 
 
 Proje Hakkında
+
 Bu proje, endüstriyel otomasyon ve IoT (Nesnelerin İnterneti) uygulamalarında yaygın olarak kullanılan OPC UA protokolünün temel işlevlerini gösterir. İki ana bileşenden oluşur:
 
 Python Sunucusu (server.py): opcua kütüphanesini kullanarak bir OPC UA sunucusu oluşturur. Bu sunucu, MyObject adlı bir nesne ve içinde "Temperature" adlı bir değişken barındırır. 
@@ -36,6 +37,7 @@ server.py dosyasını çalıştırın:
 python server.py
 
 Sunucu başlatıldıktan sonra terminalde endpoint (uç nokta) adresini göreceksiniz.
+
 2. C# İstemcisi
 
 Projenin bulunduğu dizinde (veya yeni bir konsol uygulaması oluşturup koda yapıştırarak) OPC UA istemci kütüphanesini yükleyin:
