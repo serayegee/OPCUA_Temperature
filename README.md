@@ -1,10 +1,10 @@
-OPC UA Sunucu ve İstemci Örneği
+#OPC UA Sunucu ve İstemci Örneği
 
 Bu proje, bir Python sunucusu ile bir C# istemcisi arasında OPC UA (Open Platform Communications Unified Architecture) iletişimi kuran basit bir örnektir. Python sunucusu, bir sıcaklık sensörü simüle ederken, 
 C# istemcisi bu değeri okur ve günceller.
 
 
-Proje Hakkında
+1. Proje Hakkında
 
 Bu proje, endüstriyel otomasyon ve IoT (Nesnelerin İnterneti) uygulamalarında yaygın olarak kullanılan OPC UA protokolünün temel işlevlerini gösterir. İki ana bileşenden oluşur:
 
@@ -15,7 +15,7 @@ C# İstemcisi (Program.cs): Opc.Ua.Client kütüphanesini kullanarak Python sunu
 günceller.
 
 
-Gereksinimler
+2. Gereksinimler
 
 Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyacınız vardır:
 
@@ -24,9 +24,9 @@ Python 3.6 veya üstü
 .NET SDK 6.0 veya üstü (C# projesini çalıştırmak için)
 
 
-Kurulum
+3. Kurulum
 
-1. Python Sunucusu
+Python Sunucusu:
 
 Python ortamınızda gerekli kütüphaneyi yükleyin:
 
@@ -38,7 +38,7 @@ python server.py
 
 Sunucu başlatıldıktan sonra terminalde endpoint (uç nokta) adresini göreceksiniz.
 
-2. C# İstemcisi
+C# İstemcisi:
 
 Projenin bulunduğu dizinde (veya yeni bir konsol uygulaması oluşturup koda yapıştırarak) OPC UA istemci kütüphanesini yükleyin:
 
@@ -53,7 +53,7 @@ dotnet run
 İstemci, çalışan Python sunucusuna otomatik olarak bağlanmaya çalışacaktır.
 
 
-Kullanım
+4. Kullanım
 
 Öncelikle Python Sunucusunu (server.py) çalıştırın.
 
